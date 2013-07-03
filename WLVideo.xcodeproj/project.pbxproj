@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EF52C824177C0E7B00B0BB03 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF52C823177C0E7B00B0BB03 /* AVFoundation.framework */; };
-		EF52C825177C11C800B0BB03 /* WLCoreVideoManger.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C822177C0D3C00B0BB03 /* WLCoreVideoManger.m */; };
-		EF52C828177C13A000B0BB03 /* WLCoreVideoRecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C827177C13A000B0BB03 /* WLCoreVideoRecoder.m */; };
 		EF52C82A177C395200B0BB03 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF52C829177C395200B0BB03 /* AssetsLibrary.framework */; };
+		EF52C82D177C50D400B0BB03 /* RRCoreCamEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C82C177C4F0200B0BB03 /* RRCoreCamEngine.m */; };
+		EF52C830177C519D00B0BB03 /* RRCoreVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C82F177C519D00B0BB03 /* RRCoreVideoEncoder.m */; };
+		EF52C834177C524500B0BB03 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF52C833177C524500B0BB03 /* CoreMedia.framework */; };
+		EF52C836177C528C00B0BB03 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF52C835177C528C00B0BB03 /* CoreVideo.framework */; };
+		EF9EB8E017840E6C00C5F37C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9EB8DF17840E6C00C5F37C /* MediaPlayer.framework */; };
 		EFF08C79177BE46D00B3796D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF08C78177BE46D00B3796D /* UIKit.framework */; };
 		EFF08C7B177BE46D00B3796D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF08C7A177BE46D00B3796D /* Foundation.framework */; };
 		EFF08C7D177BE46D00B3796D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF08C7C177BE46D00B3796D /* CoreGraphics.framework */; };
@@ -39,12 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF52C821177C0D3C00B0BB03 /* WLCoreVideoManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLCoreVideoManger.h; sourceTree = "<group>"; };
-		EF52C822177C0D3C00B0BB03 /* WLCoreVideoManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLCoreVideoManger.m; sourceTree = "<group>"; };
 		EF52C823177C0E7B00B0BB03 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		EF52C826177C13A000B0BB03 /* WLCoreVideoRecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCoreVideoRecoder.h; sourceTree = "<group>"; };
-		EF52C827177C13A000B0BB03 /* WLCoreVideoRecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCoreVideoRecoder.m; sourceTree = "<group>"; };
 		EF52C829177C395200B0BB03 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		EF52C82B177C4F0200B0BB03 /* RRCoreCamEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRCoreCamEngine.h; sourceTree = "<group>"; };
+		EF52C82C177C4F0200B0BB03 /* RRCoreCamEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRCoreCamEngine.m; sourceTree = "<group>"; };
+		EF52C82E177C519D00B0BB03 /* RRCoreVideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRCoreVideoEncoder.h; sourceTree = "<group>"; };
+		EF52C82F177C519D00B0BB03 /* RRCoreVideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRCoreVideoEncoder.m; sourceTree = "<group>"; };
+		EF52C833177C524500B0BB03 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EF52C835177C528C00B0BB03 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EF9EB8DF17840E6C00C5F37C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		EFF08C75177BE46D00B3796D /* WLVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF08C78177BE46D00B3796D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EFF08C7A177BE46D00B3796D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9EB8E017840E6C00C5F37C /* MediaPlayer.framework in Frameworks */,
+				EF52C836177C528C00B0BB03 /* CoreVideo.framework in Frameworks */,
+				EF52C834177C524500B0BB03 /* CoreMedia.framework in Frameworks */,
 				EF52C82A177C395200B0BB03 /* AssetsLibrary.framework in Frameworks */,
 				EF52C824177C0E7B00B0BB03 /* AVFoundation.framework in Frameworks */,
 				EFF08C79177BE46D00B3796D /* UIKit.framework in Frameworks */,
@@ -97,10 +106,10 @@
 		EF52C820177C0D3C00B0BB03 /* CoreVideo */ = {
 			isa = PBXGroup;
 			children = (
-				EF52C821177C0D3C00B0BB03 /* WLCoreVideoManger.h */,
-				EF52C822177C0D3C00B0BB03 /* WLCoreVideoManger.m */,
-				EF52C826177C13A000B0BB03 /* WLCoreVideoRecoder.h */,
-				EF52C827177C13A000B0BB03 /* WLCoreVideoRecoder.m */,
+				EF52C82B177C4F0200B0BB03 /* RRCoreCamEngine.h */,
+				EF52C82C177C4F0200B0BB03 /* RRCoreCamEngine.m */,
+				EF52C82E177C519D00B0BB03 /* RRCoreVideoEncoder.h */,
+				EF52C82F177C519D00B0BB03 /* RRCoreVideoEncoder.m */,
 			);
 			path = CoreVideo;
 			sourceTree = "<group>";
@@ -127,6 +136,9 @@
 		EFF08C77177BE46D00B3796D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF9EB8DF17840E6C00C5F37C /* MediaPlayer.framework */,
+				EF52C835177C528C00B0BB03 /* CoreVideo.framework */,
+				EF52C833177C524500B0BB03 /* CoreMedia.framework */,
 				EF52C829177C395200B0BB03 /* AssetsLibrary.framework */,
 				EF52C823177C0E7B00B0BB03 /* AVFoundation.framework */,
 				EFF08C78177BE46D00B3796D /* UIKit.framework */,
@@ -293,11 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF52C82D177C50D400B0BB03 /* RRCoreCamEngine.m in Sources */,
 				EFF08C85177BE46D00B3796D /* main.m in Sources */,
-				EF52C828177C13A000B0BB03 /* WLCoreVideoRecoder.m in Sources */,
+				EF52C830177C519D00B0BB03 /* RRCoreVideoEncoder.m in Sources */,
 				EFF08C89177BE46D00B3796D /* WLAppDelegate.m in Sources */,
 				EFF08C92177BE46D00B3796D /* WLViewController.m in Sources */,
-				EF52C825177C11C800B0BB03 /* WLCoreVideoManger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

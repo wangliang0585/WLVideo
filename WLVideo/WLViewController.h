@@ -10,4 +10,9 @@
 
 @interface WLViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIView *captureView;
+@property(nonatomic,strong)IBOutlet UIButton *playBtn;
+@property(nonatomic,strong)IBOutlet UIButton *pauseBtn;
+- (IBAction)playAction:(id)sender;
+- (IBAction)pauseAction:(id)sender;
 @end
